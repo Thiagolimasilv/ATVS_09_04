@@ -1,0 +1,11 @@
+atv 1 e 2
+
+SELECT MAX(SALARIO) AS MAIOR_SAL_TODOS
+FROM SALARIOS
+WHERE PROFISSÂO IN ('Ator', 'Musico');
+
+------------------------------------------
+
+SELECT MAX(SALARIO) AS MAIOR_SAL_TODOS
+FROM SALARIOS
+WHERE PROFISSÂO IN ('Ator', 'Musico', 'Professor');
