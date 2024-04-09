@@ -1,0 +1,19 @@
+SELECT AVG(idade) AS media_idade FROM alunos WHERE sexo = 'M';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE sexo = 'F';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE sexo = 'M';
+
+SELECT AVG(idade) AS media_idade FROM alunos WHERE nome LIKE '%b%' AND sexo = 'M';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE nome LIKE '%s%';
+
+SELECT AVG(idade) AS media_idade FROM alunos WHERE nome LIKE 'I%' AND sexo = 'F';
+
+SELECT AVG(idade) AS media_idade FROM alunos WHERE nome LIKE 'G%' AND sexo = 'M';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE nome LIKE '%a%' AND sexo = 'F';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE nome LIKE '%a%' AND sexo = 'F';
+
+SELECT SUM(idade) AS soma_idades FROM alunos WHERE nome LIKE '%f%' AND sexo = 'M';
